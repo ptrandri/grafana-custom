@@ -9,8 +9,4 @@ services:
     ports:
       - 3000:3000/tcp
     volumes:
-      - grafana_data:/var/lib/grafana
       - /etc/localtime:/etc/localtime:ro
-
-volumes:
-  grafana_data:
